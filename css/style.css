@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.body{	
+	opacity:2;
+	align-items:center;
+	justify-content:center;
+	margin:0;
+	padding:0;}
+.shree{
+	text-align:center;
+	margin:0;
+	margin-bottom:;
+	padding:0;
+	color:tomato;
+	font-size:20px;
+	font-family:'Yatra One';
+	background:cornsilk;
+	position:relative;
+	width:98vw;
+	left:1%;
+	text-shadow: .5px .5px .5px navy;}
+#bg{
+	top:0;
+	padding:0;
+	margin:0;
+	position:fixed;
+	z-index:-10;
+	opacity:0.7;
+	width:100vw;
+	height:100vh;}
+a{
+	text-decoration:none}
+.nav{
+	color:white;
+	float:left;
+	list-style:none;
+	margin-left:7px;
+	padding:5px;;
+	font-size:12px;
+	font-family:'Tillana';}
+#navbar{
+	height:35px;
+	width:96vw;
+	left:2vw;
+	position:relative;
+	opacity:2;
+	border:2px solid red;
+	border-radius:2vh;}
+#selected{
+	color:black;
+	padding:0;
+	padding-top:3px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	position:relative;
+
+	background: linear-gradient(45deg, rgba(240,242,1,0.901096148924394) 0%, rgba(250,139,0,0.8979439518668435) 50%, rgba(255,0,0,0.9026722366159612) 100%);	
+
+	background-size:cover;
+	border:1.5px solid red;
+	border-radius:100vh;
+	margin-top:1px;
+	margin-bottom:1px;}
+#logo{
+	left:19.1vh;
+	position:relative;
+	margin:10px;
+	padding:0;
+	margin-bottom:10px;
+	justify-content:center;
+	align-items:center;
+	border-radius:50%;
+	width:10vh;}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
