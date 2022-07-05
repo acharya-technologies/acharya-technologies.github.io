@@ -1,16 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
-
 .body{	
 	opacity:2;
 	align-items:center;
@@ -56,7 +43,7 @@ a{
 	position:relative;
 	opacity:2;
 	border:2px solid red;
-	border-radius:2vh;}
+	border-radius:20vh;}
 #selected{
 	color:black;
 	padding:0;
@@ -73,8 +60,9 @@ a{
 	border-radius:100vh;
 	margin-top:1px;
 	margin-bottom:1px;}
+.myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
 #logo{
-	left:19.1vh;
+	left:35vw;
 	position:relative;
 	margin:10px;
 	padding:0;
@@ -82,9 +70,43 @@ a{
 	justify-content:center;
 	align-items:center;
 	border-radius:50%;
-	width:10vh;}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+	width:25vw;}
+main{	
+	position:relative;
+	font-family:'Oswald';
+	text-align:center;
+	width:96vw;
+	left:2vw;}
+.abc{color:lime;font-family:'Tangerine';font-size:30px;opacity:.2;background:black}
+.product{background:white}
+
+
+footer{
+	position:absolute;
+	bottom:10px;
+	font-family:'Bungee','Tillana';
+	width:100vw;
+	text-align:center;}
+footer .fa{font-size:30px;margin-right:15px;}
+.fa-whatsapp{color:lime;}
+.fa-facebook{color:blue;}
+.fa-github{color:black;}
+.fa-instagram{color:hotpink;}
+.fa-envelope{  background: -webkit-linear-gradient(45deg,red,navy);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
 }
+
+#fixed{position:fixed;font-size:50px;right:3vw;bottom:3vh;background:black;border-radius:20%}
+
+
+
+
+
+#index{
+        margin-top:60px;
+        padding-tp:10px;
+        left:5vw;
+        opacity:2;
+        width:90vw;
+        text-align:center;
+        position:relative;
+        font-family:'Gotu';}

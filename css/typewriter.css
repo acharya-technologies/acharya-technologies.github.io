@@ -70,10 +70,11 @@ a{
 	width:10vh;}
 .typewriter{
         margin-top:60px;
-        padding:0;
+        padding-tp:10px;
         left:5vw;
         opacity:2;
-        width:90vw;;
+        width:90vw;
         text-align:center;
         position:relative;
         font-family:'Gotu';}
+.myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
