@@ -109,20 +109,20 @@ footer .fa{font-size:30px;margin-right:15px;}
 	position:relative;
 	animation:product-bg 7s linear infinite;}
 .product-img{height:80%;position:relative;left:10%;}
-.product-head{color:black;text-transform:uppercase;font-family:'Arima';}
-.product-info{color:blue;font-family:'Sansita Swashed';}
+.product-head{color:white;font-size:200%;text-transform:uppercase;font-family:'Arima';text-decoration:underline;font-weight:900;}
+.product-info{color:black;font-family:'Sansita Swashed';}
 .product-link{text-align:center;color:orangered;font-family:'Amita',cursive;}
 
 
 
 /*animations*/
 @keyframes product-bg{
-	0%{background:red;}
-	12.5%{background:red;}
-	25%{background:orange;}
-	37.5%{background:yellow;}
-	50%{background:green;}
-	62.5%{background:blue;}
-	75%{background:indigo;}
-	88.5%{background:violet;}
-	100%{background:red;}}
+	0%{background:#ff8080;}
+	12.5%{background:#ff8080;}
+	25%{background:#ff8533;}
+	37.5%{background:#ffff33;}
+	50%{background:#8cff66;}
+	62.5%{background:#3385ff;}
+	75%{background:#d580ff;}
+	88.5%{background:#bf00ff;}
+	100%{background:#ff8080;}}
