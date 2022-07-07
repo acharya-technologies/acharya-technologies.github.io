@@ -1,3 +1,6 @@
+html{
+	padding:0;
+	margin:0;}
 .body{	
 	opacity:2;
 	align-items:center;
@@ -81,10 +84,9 @@ main{
 
 
 footer{
-	margin-top:auto;
+	margin-top:100px;
 	float:left;
 	position:absolute;
-	bottom:10px;
 	font-family:'Bungee','Tillana';
 	width:100vw;
 	text-align:center;}
@@ -98,3 +100,29 @@ footer .fa{font-size:30px;margin-right:15px;}
 
 #fixed/*whatsapp*/{position:fixed;font-size:50px;right:3vw;bottom:3vh;background:black;border-radius:20%}
 
+.product{
+	display:grid;
+	align-items:center;
+	justify-content:center;
+	width:80vw;
+	left:10vw;
+	position:relative;
+	animation:product-bg 7s linear infinite;}
+.product-img{height:80%;position:relative;left:10%;}
+.product-head{color:black;text-transform:uppercase;font-family:'Arima';}
+.product-info{color:blue;font-family:'Sansita Swashed';}
+.product-link{text-align:center;color:orangered;font-family:'Amita',cursive;}
+
+
+
+/*animations*/
+@keyframes product-bg{
+	0%{background:red;}
+	12.5%{background:red;}
+	25%{background:orange;}
+	37.5%{background:yellow;}
+	50%{background:green;}
+	62.5%{background:blue;}
+	75%{background:indigo;}
+	88.5%{background:violet;}
+	100%{background:red;}}

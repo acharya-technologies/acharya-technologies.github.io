@@ -69,8 +69,9 @@ a{
 	border-radius:50%;
 	width:10vh;}
 .typewriter{
+	animation:k1n9 7s linear infinite;
         margin-top:60px;
-        padding-tp:10px;
+        padding-top:10px;
         left:5vw;
         opacity:2;
         width:90vw;
@@ -78,3 +79,16 @@ a{
         position:relative;
         font-family:'Gotu';}
 .myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
+
+
+/*animations*/
+@keyframes k1n9{
+        0%{background:red;}
+        12.5%{background:red;}
+        25%{background:orange;}
+        37.5%{background:yellow;}
+        50%{background:green;}
+        62.5%{background:blue;}
+        75%{background:indigo;}
+        88.5%{background:violet;}
+        100%{background:red;}}
