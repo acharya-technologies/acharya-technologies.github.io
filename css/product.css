@@ -101,6 +101,8 @@ footer .fa{font-size:30px;margin-right:15px;}
 #fixed/*whatsapp*/{position:fixed;font-size:50px;right:3vw;bottom:3vh;background:black;border-radius:20%}
 
 .product{
+	box-shadow:15px 15px 20px;
+	border-radius:10%;
 	display:grid;
 	align-items:center;
 	justify-content:center;

@@ -70,9 +70,12 @@ a{
 	width:10vh;}
 .typewriter{
 	animation:k1n9 7s linear infinite;
+	border-radius:5%;
         margin-top:60px;
-        padding-top:10px;
+        padding:40px;
         left:5vw;
+	border:5px outset olive;
+	box-shadow:1vh 1vh .5vh;
         opacity:2;
         width:90vw;
         text-align:center;
@@ -83,12 +86,12 @@ a{
 
 /*animations*/
 @keyframes k1n9{
-        0%{background:red;}
-        12.5%{background:red;}
-        25%{background:orange;}
-        37.5%{background:yellow;}
-        50%{background:green;}
-        62.5%{background:blue;}
-        75%{background:indigo;}
-        88.5%{background:violet;}
-        100%{background:red;}}
+        0%{background:#ff8080;border-radius:0%}
+        12.5%{background:#ff8080;border-radius:15%}
+        25%{background:#ff8533;border-radius:30%}
+        37.5%{background:#ffff33;border-radius:45%}
+        50%{background:#8cff66;border-radius:50%}
+        62.5%{background:#3385ff;border-radius:45%}
+        75%{background:#d580ff;border-radius:30%}
+        88.5%{background:#bf00ff;border-radius:15%}
+        100%{background:#ff8080;border-radius:0%}}
