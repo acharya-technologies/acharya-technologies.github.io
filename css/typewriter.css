@@ -58,30 +58,31 @@ a{
 	background-size:cover;
 	border:1px solid green;
 	border-radius:100vh;}
-#logo{
-	left:19.1vh;
-	position:relative;
-	margin:10px;
-	padding:0;
-	margin-bottom:10px;
-	justify-content:center;
-	align-items:center;
-	border-radius:50%;
-	width:10vh;}
 .typewriter{
 	animation:k1n9 7s linear infinite;
 	border-radius:5%;
         margin-top:60px;
         padding:40px;
         left:5vw;
+	font-weight:900;
 	border:5px outset olive;
-	box-shadow:1vh 1vh .5vh;
+	box-shadow:1.5vh 1.5vh .5vh dimgrey;
         opacity:2;
         width:90vw;
         text-align:center;
         position:relative;
         font-family:'Gotu';}
-.myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
+.type-name{
+	color:tomato;
+	background:cornsilk;
+	font-weight:900;
+	font-family:'Poppins';
+	padding:0 6px;}
+.myEduC{
+	font-weight:300;
+	color:lime;
+	font-family:'Rubik Glitch';
+	background:black;}
 
 
 /*animations*/

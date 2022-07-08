@@ -31,6 +31,18 @@ html{
 	height:100vh;}
 a{
 	text-decoration:none}
+#logo{
+        left:35vw;
+        position:relative;
+        margin:10px;
+        padding:0;
+        margin-bottom:10px;
+        justify-content:center;
+        align-items:center;
+        border-radius:50%;
+        animation:logo-border 4s linear infinite;
+        height:30vw;
+        width:30vw;}
 .nav{
 	color:white;
 	float:left;
@@ -64,16 +76,6 @@ a{
 	margin-top:1px;
 	margin-bottom:1px;}
 .myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
-#logo{
-	left:35vw;
-	position:relative;
-	margin:10px;
-	padding:0;
-	margin-bottom:10px;
-	justify-content:center;
-	align-items:center;
-	border-radius:50%;
-	width:25vw;}
 main{	
 	position:relative;
 	font-family:'Oswald';
@@ -101,7 +103,7 @@ footer .fa{font-size:30px;margin-right:15px;}
 #fixed/*whatsapp*/{position:fixed;font-size:50px;right:3vw;bottom:3vh;background:black;border-radius:20%}
 
 .product{
-	box-shadow:15px 15px 20px;
+	box-shadow:25px 25px 30px;
 	border-radius:10%;
 	display:grid;
 	align-items:center;
@@ -110,10 +112,20 @@ footer .fa{font-size:30px;margin-right:15px;}
 	left:10vw;
 	position:relative;
 	animation:product-bg 7s linear infinite;}
-.product-img{height:80%;position:relative;left:10%;}
-.product-head{color:white;font-size:200%;text-transform:uppercase;font-family:'Arima';text-decoration:underline;font-weight:900;}
+.product-img{
+	height:80%;
+	position:relative;left:10%;}
+.product-head{
+	animation:text-color 3.5s linear infinite;
+	color:white;
+	text-shadow:3px 3px 3px navy;
+	font-size:200%;
+	text-transform:uppercase;
+	font-family:'Arima';
+	text-decoration:underline wavy black 2px;
+	font-weight:900;}
 .product-info{color:black;font-family:'Sansita Swashed';}
-.product-link{text-align:center;color:orangered;font-family:'Amita',cursive;}
+.product-link{text-align:center;color:blue;font-family:'Amita',cursive;}
 
 
 
@@ -128,3 +140,15 @@ footer .fa{font-size:30px;margin-right:15px;}
 	75%{background:#d580ff;}
 	88.5%{background:#bf00ff;}
 	100%{background:#ff8080;}}
+@keyframes text-color{
+	0%{color:tomato}
+	25%{color:tomato}
+	50%{color:cyan}
+	75%{color:lime}
+	100%{color:tomato}}
+@keyframes logo-border{
+        0%{border:1vw solid red;}
+        25%{border:1vw solid orangered;}
+        50%{border:1vw solid cyan;}
+        75%{border:1vw solid lime;}
+        100%{border:1vw solid red;}}

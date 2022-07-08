@@ -70,7 +70,9 @@ a{
 	justify-content:center;
 	align-items:center;
 	border-radius:50%;
-	width:25vw;}
+	animation:logo-border 4s linear infinite;
+	height:30vw;
+	width:30vw;}
 main{	
 	position:relative;
 	font-family:'Oswald';
@@ -81,10 +83,9 @@ main{
 
 
 footer{
-	margin-top:auto;
+	top:80px;
 	float:left;
-	position:absolute;
-	bottom:10px;
+	position:relative;
 	font-family:'Bungee','Tillana';
 	width:100vw;
 	text-align:center;}
@@ -98,3 +99,10 @@ footer .fa{font-size:30px;margin-right:15px;}
 
 #fixed/*whatsapp*/{position:fixed;font-size:50px;right:3vw;bottom:3vh;background:black;border-radius:20%}
 
+/*animations*/
+@keyframes logo-border{
+	0%{border:1vw solid red;}
+	25%{border:1vw solid orangered;}
+	50%{border:1vw solid cyan;}
+	75%{border:1vw solid lime;}
+	100%{border:1vw solid red;}}

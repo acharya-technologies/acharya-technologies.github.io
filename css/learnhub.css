@@ -61,16 +61,6 @@ a{
 	margin-top:1px;
 	margin-bottom:1px;}
 .myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
-#logo{
-	left:35vw;
-	position:relative;
-	margin:10px;
-	padding:0;
-	margin-bottom:10px;
-	justify-content:center;
-	align-items:center;
-	border-radius:50%;
-	width:25vw;}
 main{	
 	position:relative;
 	font-family:'Oswald';
@@ -82,9 +72,9 @@ main{
 
 
 footer{
-	margin-top:auto;
+	top:50vh;
 	float:left;
-	position:absolute;
+	position:relative;
 	bottom:10px;
 	font-family:'Bungee','Tillana';
 	width:100vw;
