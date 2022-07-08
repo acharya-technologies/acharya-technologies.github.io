@@ -1,0 +1,154 @@
+html{
+	padding:0;
+	margin:0;}
+.body{	
+	opacity:2;
+	align-items:center;
+	justify-content:center;
+	margin:0;
+	padding:0;}
+.shree{
+	text-align:center;
+	margin:0;
+	margin-bottom:;
+	padding:0;
+	color:tomato;
+	font-size:20px;
+	font-family:'Yatra One';
+	background:cornsilk;
+	position:relative;
+	width:98vw;
+	left:1%;
+	text-shadow: .5px .5px .5px navy;}
+#bg{
+	top:0;
+	padding:0;
+	margin:0;
+	position:fixed;
+	z-index:-10;
+	opacity:0.7;
+	width:100vw;
+	height:100vh;}
+a{
+	text-decoration:none}
+#logo{
+        left:35vw;
+        position:relative;
+        margin:10px;
+        padding:0;
+        margin-bottom:10px;
+        justify-content:center;
+        align-items:center;
+        border-radius:50%;
+        animation:logo-border 4s linear infinite;
+        height:30vw;
+        width:30vw;}
+.nav{
+	color:white;
+	float:left;
+	list-style:none;
+	margin-left:7px;
+	padding:5px;;
+	font-size:12px;
+	font-family:'Tillana';}
+#navbar{
+	height:35px;
+	width:96vw;
+	left:2vw;
+	position:relative;
+	opacity:2;
+	border:2px solid red;
+	border-radius:20vh;}
+#selected{
+	color:black;
+	padding:0;
+	padding-top:3px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	position:relative;
+
+	background: linear-gradient(45deg, rgba(240,242,1,0.901096148924394) 0%, rgba(250,139,0,0.8979439518668435) 50%, rgba(255,0,0,0.9026722366159612) 100%);	
+
+	background-size:cover;
+	border:1.5px solid red;
+	border-radius:100vh;
+	margin-top:1px;
+	margin-bottom:1px;}
+.myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
+main{	
+	position:relative;
+	font-family:'Oswald';
+	text-align:center;
+	width:96vw;
+	left:2vw;}
+.abc{color:lime;font-family:'Tangerine';font-size:30px;opacity:.2;background:black}
+
+
+footer{
+	margin-top:100px;
+	float:left;
+	position:absolute;
+	font-family:'Bungee','Tillana';
+	width:100vw;
+	text-align:center;}
+footer .fa{font-size:30px;margin-right:15px;}
+.fa-whatsapp{color:lime;}
+.fa-facebook{color:blue;}
+.fa-github{color:black;}
+.fa-instagram{color:hotpink;}
+.fa-envelope{  background: -webkit-linear-gradient(45deg,red,navy);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+}
+
+#fixed/*whatsapp*/{position:fixed;font-size:50px;right:3vw;bottom:3vh;background:black;border-radius:20%}
+
+.product{
+	box-shadow:25px 25px 30px;
+	border-radius:10%;
+	display:grid;
+	align-items:center;
+	justify-content:center;
+	width:80vw;
+	left:10vw;
+	position:relative;
+	animation:product-bg 7s linear infinite;}
+.product-img{
+	height:80%;
+	position:relative;left:10%;}
+.product-head{
+	animation:text-color 3.5s linear infinite;
+	color:white;
+	text-shadow:3px 3px 3px navy;
+	font-size:200%;
+	text-transform:uppercase;
+	font-family:'Arima';
+	text-decoration:underline wavy black 2px;
+	font-weight:900;}
+.product-info{color:black;font-family:'Sansita Swashed';}
+.product-link{text-align:center;color:blue;font-family:'Amita',cursive;}
+
+
+
+/*animations*/
+@keyframes product-bg{
+	0%{background:#ff8080;}
+	12.5%{background:#ff8080;}
+	25%{background:#ff8533;}
+	37.5%{background:#ffff33;}
+	50%{background:#8cff66;}
+	62.5%{background:#3385ff;}
+	75%{background:#d580ff;}
+	88.5%{background:#bf00ff;}
+	100%{background:#ff8080;}}
+@keyframes text-color{
+	0%{color:tomato}
+	25%{color:tomato}
+	50%{color:cyan}
+	75%{color:lime}
+	100%{color:tomato}}
+@keyframes logo-border{
+        0%{border:1vw solid red;}
+        25%{border:1vw solid orangered;}
+        50%{border:1vw solid cyan;}
+        75%{border:1vw solid lime;}
+        100%{border:1vw solid red;}}
