@@ -113,6 +113,8 @@ footer .fa{font-size:30px;margin-right:15px;}
 	position:relative;
 	animation:product-bg 7s linear infinite;}
 .product-img{
+	border-radius:50%;
+	animation:product-img-move 2s ease-in-out infinite;
 	height:80%;
 	position:relative;left:10%;}
 .product-head{
@@ -152,3 +154,7 @@ footer .fa{font-size:30px;margin-right:15px;}
         50%{border:1vw solid cyan;}
         75%{border:1vw solid lime;}
         100%{border:1vw solid red;}}
+@keyframes product-img-move{
+	0%{transform:rotate(-10deg)}
+	50%{transform:rotate(10deg)}
+	100%{transform:rotate(-10deg)}}
