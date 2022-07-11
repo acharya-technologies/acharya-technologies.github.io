@@ -10,13 +10,13 @@
 	margin-bottom:;
 	padding:0;
 	color:tomato;
-	font-size:20px;
+	font-size:3vh;
 	font-family:'Yatra One';
 	background:cornsilk;
 	position:relative;
 	width:98vw;
 	left:1%;
-	text-shadow: .5px .5px .5px navy;}
+	text-shadow: .1vh .1vh  navy;}
 #bg{
 	top:0;
 	padding:0;
@@ -89,15 +89,25 @@ footer{
 	font-family:'Bungee','Tillana';
 	width:100vw;
 	text-align:center;}
-footer .fa{font-size:30px;margin-right:15px;}
+footer .fa{font-size:3.3vmax;padding:.9vmax;margin:.5vmax;text-align:center;}
 .fa-whatsapp{color:lime;}
 .fa-facebook{color:blue;}
 .fa-github{color:black;}
 .fa-instagram{color:hotpink;}
-.fa-envelope{  background: -webkit-linear-gradient(45deg,red,navy);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
-}
+.fa-envelope{ color:maroon;}
+#social-media{;background:white;border-radius:50%;width:6vmax;height:6vmax;border:.3vmax solid #c6ccc8;}
 
-#fixed/*whatsapp*/{position:fixed;font-size:50px;right:3vw;bottom:3vh;background:black;border-radius:20%}
+#fixed/*whatsapp*/{
+	position:fixed;
+	font-size:7vh;
+	right:3vw;bottom:3vh;background:black;border-radius:20%}
+
+footer .fa-instagram:hover{animation: social-media-ig 1s}
+footer .fa-facebook:hover{animation: social-media-fb 1s}
+footer .fa-envelope:hover{animation: social-media-mail 1s}
+footer .fa-whatsapp:hover{animation: social-media-wa 1s}
+footer .fa-github:hover{animation: social-media-github 1s}
+
 
 /*animations*/
 @keyframes logo-border{
@@ -106,3 +116,13 @@ footer .fa{font-size:30px;margin-right:15px;}
 	50%{border:1vw solid cyan;}
 	75%{border:1.5vw solid lime;}
 	100%{border:1vw solid red;}}
+@keyframes social-media-fb{
+        100%{transform:rotate(360deg);background:blue;color:black;}}
+@keyframes social-media-ig{
+        100%{transform:rotate(360deg);background:hotpink;color:black}}
+@keyframes social-media-mail{
+        100%{transform:rotate(360deg);background:maroon;color:white;}}
+@keyframes social-media-github{
+        100%{transform:rotate(360deg);background:black;color:white;}}
+@keyframes social-media-wa{
+        100%{transform:rotate(360deg);background:lime;color:black;}}
