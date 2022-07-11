@@ -122,10 +122,10 @@ footer .fa-github:hover{animation: social-media-github 1s}
 @keyframes social-media-fb{
         100%{transform:rotate(360deg);background:blue;color:white;border: .3vmax solid cyan}}
 @keyframes social-media-ig{
-        100%{transform:rotate(360deg);background:pink;color:white;border: .3vmax solid deeppink}}
+        100%{transform:rotate(360deg);background:pink;color:black;border: .3vmax solid deeppink}}
 @keyframes social-media-mail{
         100%{transform:rotate(360deg);background:maroon;color:white;border: .3vmax solid white}}
 @keyframes social-media-github{
         100%{transform:rotate(360deg);background:black;color:white;border: .3vmax solid white}}
 @keyframes social-media-wa{
-        100%{transform:rotate(360deg);background:lime;color:white;border: .3vmax solid green}}
+        100%{transform:rotate(360deg);background:lime;color:black;border: .3vmax solid green}}
