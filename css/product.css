@@ -1,5 +1,5 @@
 .product{
-        box-shadow:25px 25px 30px;
+        box-shadow:2.5vmax 2.5vmax 2.5vmin black;
         border-radius:10%;
         display:grid;
         align-items:center;
@@ -18,12 +18,13 @@
 .product-head{
         animation:text-color 3.5s linear infinite;
         color:white;
-        text-shadow:3px 3px 3px navy;
+        text-shadow:.6vmin .6vmin navy;
         font-size:200%;
         text-transform:uppercase;
         font-family:'Arima';
-        text-decoration:underline wavy 3px;
-        font-weight:900;}
+        text-decoration:underline wavy .8vmin;
+        font-weight:900;
+	background-size:cover;}
 .product-info{color:black;font-family:'Sansita Swashed';}
 .product-link{text-align:center;color:blue;font-family:'Amita',cursive;}
 
