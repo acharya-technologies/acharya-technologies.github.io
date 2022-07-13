@@ -1,4 +1,5 @@
 .body{	
+	animation: fadein 1.3s ease-in-out;
 	opacity:2;
 	align-items:center;
 	justify-content:center;
@@ -97,7 +98,13 @@ footer .fa{font-size:3.3vmax;padding:.9vmax;margin:.5vmax;text-align:center;}
 .fa-github{color:black;}
 .fa-instagram{color:hotpink;}
 .fa-envelope{ color:maroon;}
-#social-media{;background:white;border-radius:50%;width:6vmax;height:6vmax;border:.3vmax solid #c6ccc8;}
+#social-media{
+	background:white;
+	border-radius:50%;
+	width:6vmax;
+	height:6vmax;
+	border:.3vmax solid #c6ccc8;
+	box-shadow: 1vmax 1vmax 3vmax black;}
 
 #fixed/*whatsapp*/{
 	position:fixed;
@@ -118,6 +125,11 @@ footer .fa-github:hover{animation: social-media-github 1s}
 	50%{border:1vmin solid blue;}
 	75%{border:1vmax solid green;}
 	100%{border:1vmin solid tomato;}}
+
+@keyframes fadein{
+	0%{opacity:0;}
+        50%{opacity:0.5;}
+	100%{opacity:1;}}
 
 @keyframes social-media-fb{
         100%{transform:rotate(360deg);background:blue;color:white;border: .3vmax solid cyan}}

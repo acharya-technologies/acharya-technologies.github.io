@@ -42,11 +42,11 @@
         88.5%{background:#bf00ff;}
         100%{background:#ff8080;}}
 @keyframes text-color{
-        0%{color:tomato}
-        25%{color:tomato}
-        50%{color:cyan}
-        75%{color:lime}
-        100%{color:tomato}}
+        0%{color:marron}
+        25%{color:olive}
+        50%{color:aquamarine}
+        75%{color:green}
+        100%{color:maroon}}
 @keyframes logo-border{
         0%{border:1vw solid red;}
         25%{border:1vw solid orangered;}
