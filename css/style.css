@@ -1,4 +1,4 @@
-.body{	
+.body{
 	animation: fadein 1.3s ease-in-out;
 	opacity:2;
 	align-items:center;
@@ -30,21 +30,25 @@
 a{
 	text-decoration:none}
 .nav{
-	color:white;
+	color:dimgrey ;
 	float:left;
 	list-style:none;
 	margin-left:.7vmax;
 	padding:.5vmax;
-	font-size:1.6vmax;
+	font-size:1.65vmax;
 	font-family:'Tillana';}
 #navbar{
 	height:4.5vmax;
 	display:flex;
+	justify-content:center;
+	align-items:center;
 	width:96vw;
+	columns:30;
 	left:2vw;
+	background:wheat;
 	position:relative;
 	opacity:2;
-	border:.3vmax solid olive;
+	border:.3vmax solid chocolate;
 	border-radius:20vh;}
 #selected{
 	color:black;
@@ -54,9 +58,9 @@ a{
 	padding-left:1vmax;
 	padding-right:1vmax;
 	position:relative;
-	background: linear-gradient(45deg, rgba(240,242,1,0.901096148924394) 0%, rgba(250,139,0,0.8979439518668435) 50%, rgba(255,0,0,0.9026722366159612) 100%);
+	background: burlywood;
 	background-size:cover;
-	border:.3vmax solid red;
+	border:.3vmax solid chocolate;
 	border-radius:100vh;
 	margin:auto;}
 .myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
@@ -126,7 +130,7 @@ footer .fa-github:hover{animation: social-media-github 1s}
 	75%{border:1vmax solid green;}
 	100%{border:1vmin solid tomato;}}
 
-@keyframes fadein{
+@keyframes adein{
 	0%{opacity:0;}
         50%{opacity:0.5;}
 	100%{opacity:1;}}
