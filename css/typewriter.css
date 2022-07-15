@@ -1,11 +1,11 @@
 .typewriter{
-        animation:k1n9 7s linear infinite;
+        animation:k1n9 3.5s ease-in-out infinite;
         border-radius:5%;
         margin-top:6vmax;
-        padding:4vmax;
+        padding:5vmax;
         left:5vw;
-        font-weight:900;
-        border:.5vmax inset maroon;
+        font-weight:800;
+        border:.5vmax outset goldenrod;
         box-shadow:1.5vmax 1.5vmax 3vmax black;
         opacity:2;
         width:90vw;
