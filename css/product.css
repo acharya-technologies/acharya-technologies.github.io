@@ -7,18 +7,18 @@
         width:80vw;
         left:10vw;
         position:relative;
+	border:1vmax solid dimgrey;
         animation:product-bg 7s linear infinite;}
 .product-img{
-        border: 2vw solid;
+        border: 2vw solid dimgrey;
         border-image-slice:0.4;
         border-radius:50%;
         animation:product-img-move 2s ease-in-out infinite;
         height:80%;
         position:relative;left:10%;}
 .product-head{
-        animation:text-color 3.5s linear infinite;
+        animation:text-color 3.5s ease-in-out infinite;
         color:white;
-        text-shadow:.6vmin .6vmin navy;
         font-size:200%;
         text-transform:uppercase;
         font-family:'Arima';
@@ -32,21 +32,20 @@
 
 /*animations*/
 @keyframes product-bg{
-        0%{background:#ff8080;}
-        12.5%{background:#ff8080;}
-        25%{background:#ff8533;}
-        37.5%{background:#ffff33;}
-        50%{background:#8cff66;}
-        62.5%{background:#3385ff;}
-        75%{background:#d580ff;}
-        88.5%{background:#bf00ff;}
-        100%{background:#ff8080;}}
+        0%{background:#ffb3b3;}
+        12.5%{background:#ffb3b3;}
+        25%{background:#ffd1b3;}
+        37.5%{background:#ffffb3;}
+        50%{background: #c6ffb3;}
+        62.5%{background: #b3e6ff;}
+        75%{background:#b3d1ff;}
+        88.5%{background: #e0b3ff;}
+        100%{background:#ffb3b3;}}
 @keyframes text-color{
-        0%{color:marron}
-        25%{color:olive}
-        50%{color:aquamarine}
-        75%{color:green}
-        100%{color:maroon}}
+        0%{color:black}
+        33%{color:dimgrey}
+        66%{color:grey}
+        100%{color:black}}
 @keyframes logo-border{
         0%{border:1vw solid red;}
         25%{border:1vw solid orangered;}

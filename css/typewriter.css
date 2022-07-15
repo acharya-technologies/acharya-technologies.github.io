@@ -1,12 +1,12 @@
 .typewriter{
         animation:k1n9 7s linear infinite;
         border-radius:5%;
-        margin-top:60px;
-        padding:40px;
+        margin-top:6vmax;
+        padding:4vmax;
         left:5vw;
         font-weight:900;
-        border:5px outset olive;
-        box-shadow:1.5vh 1.5vh .5vh black;
+        border:.5vmax inset maroon;
+        box-shadow:1.5vmax 1.5vmax 3vmax black;
         opacity:2;
         width:90vw;
         text-align:center;
@@ -17,7 +17,7 @@
         background:cornsilk;
         font-weight:900;
         font-family:'Poppins';
-        padding:0 6px;}
+        padding:0 .6vmax;}
 .myEduC{
         font-weight:300;
         color:lime;
@@ -26,12 +26,13 @@
 
 /*animations*/
 @keyframes k1n9{
-        0%{background:#ff8080;border-radius:0%}
-        12.5%{background:#ff8080;border-radius:15%}
-        25%{background:#ff8533;border-radius:30%}
-        37.5%{background:#ffff33;border-radius:45%}
-        50%{background:#8cff66;border-radius:50%}
-        62.5%{background:#3385ff;border-radius:45%}
-        75%{background:#d580ff;border-radius:30%}
-        88.5%{background:#bf00ff;border-radius:15%}
-        100%{background:#ff8080;border-radius:0%}}
+	0%{background:#ffb3b3;border-radius:0%}
+	12.5%{background:#ffb3b3;border-radius:15%}
+	25%{background:#ffd1b3;border-radius:30%}
+	37.5%{background:#ffffb3;border-radius:45%}
+	50%{background: #c6ffb3;border-radius:50%}
+	62.5%{background: #b3e6ff;border-radius:45%}
+	75%{background:#b3d1ff;border-radius:30%}
+	88.5%{background: #e0b3ff;border-radius:15%}
+	100%{background:#ffb3b3;border-radius:0%}}
+
