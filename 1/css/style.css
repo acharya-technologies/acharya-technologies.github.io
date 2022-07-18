@@ -23,7 +23,7 @@
 	width:144px;
 	background-size:cover;}
 .sub{	font-size:.6em;font-family:'Yatra One';color:green;font-weight:800;}
-.fa{display:inline;margin-left:.2em;padding:.4em;}
+.fa{display:inline;margin-left:3vw;padding:1vw;}
 .company{font-family:'Gotu';font-weight:900;color:tomato}
 .Amita{font-family:'Amita'}
 #footer{
@@ -33,4 +33,4 @@
 	justify-content:center;
 	bottom:0;
 	width:100vw;}
-.k1n9{width:50%}
+.k1n9{width:40%}
