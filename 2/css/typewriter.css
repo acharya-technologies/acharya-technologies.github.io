@@ -1,0 +1,38 @@
+.typewriter{
+        animation:k1n9 3.5s ease-in-out infinite;
+        border-radius:5%;
+        margin-top:6vmax;
+        padding:5vmax;
+        left:5vw;
+        font-weight:800;
+        border:.5vmax outset goldenrod;
+        box-shadow:1.5vmax 1.5vmax 3vmax black;
+        opacity:2;
+        width:90vw;
+        text-align:center;
+        position:relative;
+        font-family:'Gotu';}
+.type-name{
+        color:tomato;
+        background:cornsilk;
+        font-weight:900;
+        font-family:'Poppins';
+        padding:0 .6vmax;}
+.myEduC{
+        font-weight:300;
+        color:lime;
+        font-family:'Rubik Glitch';
+        background:black;}
+
+/*animations*/
+@keyframes k1n9{
+	0%{background:#ffb3b3;border-radius:0%}
+	12.5%{background:#ffb3b3;border-radius:15%}
+	25%{background:#ffd1b3;border-radius:30%}
+	37.5%{background:#ffffb3;border-radius:45%}
+	50%{background: #c6ffb3;border-radius:50%}
+	62.5%{background: #b3e6ff;border-radius:45%}
+	75%{background:#b3d1ff;border-radius:30%}
+	88.5%{background: #e0b3ff;border-radius:15%}
+	100%{background:#ffb3b3;border-radius:0%}}
+

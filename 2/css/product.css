@@ -1,0 +1,58 @@
+.product{
+        box-shadow:2.5vmax 2.5vmax 2.5vmin black;
+        border-radius:10%;
+        display:grid;
+        align-items:center;
+        justify-content:center;
+        width:80vw;
+        left:10vw;
+        position:relative;
+	border:1vmax solid dimgrey;
+        animation:product-bg 7s linear infinite;}
+.product-img{
+        border: 2vw solid dimgrey;
+        border-image-slice:0.4;
+        border-radius:50%;
+        animation:product-img-move 2s ease-in-out infinite;
+        height:80%;
+        position:relative;left:10%;}
+.product-head{
+        animation:text-color 3.5s ease-in-out infinite;
+        color:white;
+        font-size:200%;
+        text-transform:uppercase;
+        font-family:'Arima';
+        text-decoration:underline wavy .8vmin;
+        font-weight:900;
+	background-size:cover;}
+.product-info{color:black;font-family:'Sansita Swashed';}
+.product-link{text-align:center;color:blue;font-family:'Amita',cursive;}
+
+
+
+/*animations*/
+@keyframes product-bg{
+        0%{background:#ffb3b3;}
+        12.5%{background:#ffb3b3;}
+        25%{background:#ffd1b3;}
+        37.5%{background:#ffffb3;}
+        50%{background: #c6ffb3;}
+        62.5%{background: #b3e6ff;}
+        75%{background:#b3d1ff;}
+        88.5%{background: #e0b3ff;}
+        100%{background:#ffb3b3;}}
+@keyframes text-color{
+        0%{color:black}
+        33%{color:dimgrey}
+        66%{color:grey}
+        100%{color:black}}
+@keyframes logo-border{
+        0%{border:1vw solid red;}
+        25%{border:1vw solid orangered;}
+        50%{border:1vw solid cyan;}
+        75%{border:1vw solid lime;}
+        100%{border:1vw solid red;}}
+@keyframes product-img-move{
+        0%{transform:rotate(-2deg)}
+        50%{transform:rotate(2deg)}
+        100%{transform:rotate(-2deg)}}
