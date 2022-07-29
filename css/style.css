@@ -19,13 +19,15 @@
 	text-shadow: .1vmax .1vmax .2vmax navy;}
 .logo{	background:url("../img/logo.jpeg");
 	border-radius:50%;
-	height:152px;
-	width:144px;
+	height:150px;
+	aspect-ratio:1/1;
 	background-size:cover;}
 .sub{	font-size:.6em;font-family:'Yatra One';color:green;font-weight:800;}
-.fa{display:inline;margin-left:3vw;padding:1vw;}
+.fa{display:inline;margin-left:3vw;padding:clamp(.5vw,1vw,1vw);}
 .company{font-family:'Gotu';font-weight:900;color:tomato}
 .Amita{font-family:'Amita'}
+.Gotu{font-family:Gotu}
+.Yatra{font-family:'Yatra One'}
 #footer{
 	display:flex;
 	position:absolute;
