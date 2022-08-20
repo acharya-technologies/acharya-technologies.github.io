@@ -1,0 +1,63 @@
+#shree{
+	text-align:center;
+	margin:0;
+	margin-bottom:8em;
+	top:-.3em;
+	padding:0;
+	color:tomato; 
+	font-size:3vmax;
+	font-family:'Yatra One';
+	background:cornsilk; 
+	position:absolute;
+	width:98vw;
+	left:1%;
+	text-shadow: .1vmax .1vmax .2vmax navy;}
+body{
+	position:relative;
+	display:grid;
+	place-items:center;
+	width:100vw;}
+#bg{
+	overflow:hidden;
+	opacity:.6;
+	position:absolute;
+	top:3vmax;
+	margin:0;
+	padding:0;
+	height:85vh;
+	width:100vw;}
+h1{
+	top:1em;
+	position:relative;
+	color:transparent;
+	-webkit-text-stroke-width:.1vmax;
+	-webkit-text-stroke-color:black;
+	background:linear-gradient(45deg,red,orange,yellow,lime,cyan,indigo,violet);
+	-webkit-background-clip:text;
+	text-align:center;
+	font-size:10vmax;
+	animation:text 2s linear infinite;
+	font-family:'Yatra One',cursive;
+	letter-spacing:1vmin;}
+#name{
+	-webkit-text-stroke:.2vmax white;
+	position:relative;
+	margin-top:0;
+	color:red;
+	padding:0;
+	text-transform:uppercase;
+	font-size:10vmax;
+	animation: name 2s infinite;
+	font-family:'Arima',cursive;}
+
+@keyframes text{
+	0%{color:transparent;}
+	33%{color:tan;}
+	66%{color:whitesmoke}
+	100%{color:transparent;}}
+@keyframes name{
+	0%{transform:scale(.5);}
+	25%{transform:rotate(-15deg);}
+	50%{transform:scale(1.6)}
+	75%{transform:rotate(15deg);}
+	100%{transform:scale(.5);}}

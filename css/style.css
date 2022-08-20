@@ -1,0 +1,39 @@
+.body{
+	align-items:center;
+	background:red;
+	justify-content:center;
+	margin:0;
+	padding:0;}
+#shree{
+	text-align:center;
+	margin:0;
+	margin-bottom:;
+	padding:0;
+	color:tomato;
+	font-size:20px;
+	font-family:'Yatra One';
+	background:cornsilk;
+	position:relative;
+	width:98vw;
+	left:1%;
+	text-shadow: 1px 1px navy;}
+nav{font-family:Yatra One,cursive}
+.logo{	background:url("../img/logo.jpeg");
+	border-radius:50%;
+	height:150px;
+	aspect-ratio:1/1;
+	background-size:cover;}
+.sub{	font-size:.6em;font-family:'Yatra One';color:green;font-weight:800;}
+.fa{display:inline;margin-left:3vw;padding:clamp(.5vw,1vw,1vw);}
+.company{font-family:'Gotu';font-weight:900;color:tomato}
+.Amita{font-family:'Amita'}
+.Gotu{font-family:Gotu}
+.Yatra{font-family:'Yatra One'}
+#footer{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	bottom:0;
+	position:fixed;
+	width:100vw;}
+.k1n9{width:40%}

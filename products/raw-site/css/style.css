@@ -1,0 +1,145 @@
+.body{
+	animation: fadein 1.3s ease-in-out;
+	opacity:2;
+	align-items:center;
+	justify-content:center;
+	margin:0;
+	padding:0;}
+.shree{
+	text-align:center;
+	margin:0;
+	margin-bottom:;
+	padding:0;
+	color:tomato;
+	font-size:3vmax;
+	font-family:'Yatra One';
+	background:cornsilk;
+	position:relative;
+	width:98vw;
+	left:1%;
+	text-shadow: .1vmax .1vmax .2vmax navy;}
+#bg{
+	top:0;
+	padding:0;
+	margin:0;
+	position:fixed;
+	z-index:-10;
+	opacity:0.7;
+	width:100vw;
+	height:100vh;}
+a{
+	text-decoration:none}
+.nav{
+	color:dimgrey ;
+	float:left;
+	list-style:none;
+	margin:auto 3vmax;
+	padding:.5vmax;
+	font-size:1.65vmax;
+	font-family:'Tillana';}
+#navbar{
+	height:4.5vmax;
+	display:grid;
+	place-items:center;
+	width:96vw;
+	columns:30;
+	left:2vw;
+	background:wheat;
+	position:relative;
+	opacity:2;
+	border:.3vmax solid chocolate;
+	border-radius:20vh;}
+#selected{
+	color:black;
+	padding:0;
+	padding-top:.3vmax;
+	padding-bottom:.5vmax;
+	padding-left:1vmax;
+	padding-right:1vmax;
+	position:relative;
+	background: burlywood;
+	background-size:cover;
+	border:.3vmax solid chocolate;
+	border-radius:100vh;
+	margin:auto;}
+.myEduC{color:lime;font-family:'Rubik Glitch';background:black;}
+#logo{
+	position:relative;
+	margin:auto;
+	padding:0;
+	margin-top:3vmax;
+	margin-bottom:4vmax;
+	border-radius:50%;
+	animation:logo-border 3s ease-in-out infinite;
+	height:30vmin;
+	width:30vmin;}
+main{	
+	position:relative;
+	font-family:'Oswald';
+	text-align:center;
+	width:96vw;
+	left:2vw;}
+.abc{
+	color:lime;
+	font-family:'Tangerine';
+	font-size:5vmin;
+	opacity:.2;
+	background:black}
+
+footer{
+	bottom:-8vmax;
+	display:inline;
+	float:left;
+	position:relative;
+	font-family:'Bungee','Tillana';
+	width:100vw;
+	text-align:center;}
+footer .fa{font-size:3.3vmax;padding:.9vmax;margin:.5vmax;text-align:center;}
+.fa-whatsapp{color:lime;}
+.fa-facebook{color:blue;}
+.fa-github{color:black;}
+.fa-instagram{color:hotpink;}
+.fa-envelope{ color:maroon;}
+#social-media{
+	background:white;
+	border-radius:50%;
+	width:6vmax;
+	height:6vmax;
+	border:.3vmax solid #c6ccc8;
+	box-shadow: 0 0 2vmax black;}
+
+#fixed/*whatsapp*/{
+	position:fixed;
+	font-size:7vmax;
+	right:3vw;bottom:3vh;background:black;border-radius:20%}
+
+footer .fa-instagram:hover{animation: social-media-ig 1s}
+footer .fa-facebook:hover{animation: social-media-fb 1s}
+footer .fa-envelope:hover{animation: social-media-mail 1s}
+footer .fa-whatsapp:hover{animation: social-media-wa 1s}
+footer .fa-github:hover{animation: social-media-github 1s}
+
+
+/*animations*/
+@keyframes logo-border{
+	0%{border:1vmin solid tomato}
+	25%{border:1vmax solid tomato;}
+	50%{border:1vmin solid blue;}
+	75%{border:1vmax solid green;}
+	100%{border:1vmin solid tomato;}}
+
+@keyframes adein{
+	0%{opacity:0;}
+        50%{opacity:0.5;}
+	100%{opacity:1;}}
+
+@keyframes social-media-fb{
+        100%{transform:rotate(360deg);background:blue;color:white;border: .3vmax solid cyan}}
+@keyframes social-media-ig{
+        100%{transform:rotate(360deg);background:pink;color:black;border: .3vmax solid deeppink}}
+@keyframes social-media-mail{
+        100%{transform:rotate(360deg);background:maroon;color:white;border: .3vmax solid white}}
+@keyframes social-media-github{
+        100%{transform:rotate(360deg);background:black;color:white;border: .3vmax solid white}}
+@keyframes social-media-wa{
+        100%{transform:rotate(360deg);background:lime;color:black;border: .3vmax solid green}}

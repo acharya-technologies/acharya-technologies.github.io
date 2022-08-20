@@ -1,0 +1,21 @@
+.typewriter{
+        left:2vw;
+        font-weight:800;
+        box-shadow:1.5vmax 1.5vmax 3vmax;
+        opacity:1;
+        width:96vw;
+	padding:1em;
+        text-align:center;
+        position:absolute;
+        font-family:'Gotu';}
+.type-name{
+        color:tomato;
+        background:lightcyan;
+        font-weight:900;
+        font-family:'Poppins';
+        padding:0 .6vmax;}
+.myEduC{
+        font-weight:300;
+        color:lime;
+        font-family:'Rubik Glitch';
+        background:black;}
