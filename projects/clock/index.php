@@ -8,13 +8,14 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <p class="shree"> || जय श्री राम ||</p>
+<div class="body">
+
 <div id="clock">
 <div id="hour"></div>
 <div id="minute"></div>
 <div id="second"></div>
-</div>
 
+</div></div>
 
-<body>
 <script src="script.js"></script>
 </body></html>

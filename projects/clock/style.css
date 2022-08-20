@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
-body{	justify-content:center;
-	background: url("unnamed.gif");
+*{margin:0;padding:0}
+.body{	justify-content:center;
+	background: url("https://i.pinimg.com/originals/32/d7/6b/32d76bda14ee5e1dc93bdf36a6d2e46d.gif");
 	background-size:cover;
-	height:93vh;
+	display:flex;
+	flex-direction:column;
+	height:95vh;
 	width:100vw;
         align-items:center;}
 #clock{
-	top:25vh;
 	position:relative;
 	background:url("Clock.png") no-repeat;
-	left:2.5vmax;
 	height:45vmax;
 	width:45vmax;
 	border-radius:50%;
