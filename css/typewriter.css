@@ -12,7 +12,9 @@
         color:tomato;
         background:lightcyan;
         font-weight:900;
-        font-family:'Poppins';
+        font-family:'Gotu';
+	-webkit-text-stroke-color:red;
+	-webkit-text-stroke-width:.5px;
         padding:0 .6vmax;}
 .myEduC{
         font-weight:300;
