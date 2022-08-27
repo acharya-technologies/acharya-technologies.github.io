@@ -24,6 +24,7 @@ nav{font-family:Yatra One,cursive}
 .logo{	background:url("../img/logo.jpeg");
 	border-radius:50%;
 	height:150px;
+	border:4px solid #d97706;
 	aspect-ratio:1/1;
 	background-size:cover;}
 .sub{	font-size:.6em;font-family:'Yatra One';color:green;font-weight:800;}
