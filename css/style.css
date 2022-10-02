@@ -32,9 +32,11 @@ nav{font-family:Yatra One,cursive}
 .Gotu{font-family:Gotu}
 .Yatra{font-family:'Yatra One'}
 #footer{
+	border-top:4px solid #ea580c;
 	display:flex;
 	align-items:center;
 	justify-content:center;
+	margin-top:200px;
 	bottom:0;
 	position:fixed;
 	width:100vw;}
