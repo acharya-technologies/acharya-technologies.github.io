@@ -1,8 +1,10 @@
-[![acharya-technologies GitHub stats](https://github-readme-stats.vercel.app/api?username=acharya-technologies)](https://github.com/anuraghazra/github-readme-stats)
-
 <body align="center">
 <h1 align="center">|| जय श्रीराम ||<br>I'm Omkar Kulkarni</h1>
 <h3 align="center">A passionate and beginner frontend developer from India</h3>
+
+[![acharya-technologies GitHub stats](https://github-readme-stats.vercel.app/api?username=acharya-technologies)](https://github.com/anuraghazra/github-readme-stats)
+[![@0mk4r's Holopin board](https://holopin.me/0mk4r)](https://holopin.io/@0mk4r)
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=acharya-technologies&label=Profile%20views&color=0e75b6&style=flat" alt="acharya-technologies" /> </p>
 
