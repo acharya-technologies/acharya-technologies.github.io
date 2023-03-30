@@ -1,7 +1,7 @@
 .typewriter{
         left:2vw;
         font-weight:800;
-        box-shadow:1.5vmax 1.5vmax 3vmax;
+        box-shadow:1.5vmax 1.5vmax 3vmax firebrick;
         opacity:1;
         width:96vw;
 	padding:1em;
