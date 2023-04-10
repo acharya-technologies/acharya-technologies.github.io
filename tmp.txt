@@ -17,7 +17,7 @@
 <meta name="description" content='"आचार्य Technologies" is a non-registered product based company. I have developed some webpages. You can see them in "MY PRODUCTS" section.'> 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://acharya-technologies.me">
-<meta property="og:title" content="आचार्य Technologies"> 
+<meta property="og:title" content="कौतुक विद्यालय, शिरोली (पु.)"> 
 <meta property="og:description" content="">
 <meta property="og:image" content="./img/logo.jpeg">
 
